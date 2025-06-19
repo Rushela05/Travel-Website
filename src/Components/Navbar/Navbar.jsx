@@ -2,6 +2,7 @@ import React from "react";
 import './navbar.css'
 import { MdOutlineTravelExplore } from "react-icons/md";
 import { AiFillCloseCircle } from "react-icons/ai";
+import { TbGridDots } from "react-icons/tb";
 
 const Navbar = () => {
     return(
@@ -47,6 +48,10 @@ const Navbar = () => {
                     <div className="closeNavbar">
                         <AiFillCloseCircle className="icon" />
                     </div>                    
+                </div>
+
+                <div className="togglerNavbar">
+                    <TbGridDots className="icon" />
                 </div>
             </header>
 
