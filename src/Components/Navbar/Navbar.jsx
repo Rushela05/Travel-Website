@@ -1,7 +1,7 @@
 import React from "react";
 import './navbar.css'
 import { MdOutlineTravelExplore } from "react-icons/md";
-import { AiFillClockCircle } from "react-icons/ai";
+import { AiFillCloseCircle } from "react-icons/ai";
 
 const Navbar = () => {
     return(

@@ -8,7 +8,7 @@ import Navbar from "./Components/Navbar/Navbar"
 const App = () => {
     return(
         <>
-        <navbar></navbar>
+        <navbar />
         {/*</Home>
             </Main>
             </Footer> */}
