@@ -21,12 +21,22 @@
   width: 100%;
   padding: 1rem 2rem;
   z-index: 1000;
+  box-shadow: 0 2px 4px rgba(121, 131, 143, 0.2);
 
   .logo {
     color: var(--blackColor);
+    font-weight: 600;
+    cursor: pointer;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 0.5rem;
+
+    .icon{
+      font-size: 25px;
+      color: var(--PrimaryColor);
+      transform: translateY(5px);
+    }
   }
 
   .navBar {
@@ -78,18 +88,25 @@
     }
 
     .closeNavbar {
-      position: absolute;
+      display: none;
       top: 1rem;
+      cursor: pointer;
       right: 1.5rem;
       color: var(--PrimaryColor);
       &:hover{
-        color: var(--SecondaryColor);
+      color: var(--SecondaryColor);
       }
     }
   }
 
   .togglerNavbar {
-    display: none;
+    .icon{
+      font-size: 25px;
+      color: var(--PrimaryColor);
+    }
+    &:hover.icon{
+      color: var(--SecondaryColor);
+    }
   }
 }
 
@@ -99,7 +116,7 @@
     position: absolute;
     background: var(--whiteColorDream);
     width: 80%;
-    top: 6rem;
+    top: -500rem;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 1rem;
@@ -109,6 +126,11 @@
     z-index: 2000;
   }
 
+  .activeNavbar{
+    top: 7rem;
+
+  }
+
   .navLists {
     flex-direction: column;
     align-items: center;
@@ -116,12 +138,20 @@
   }
 
   .togglerNavbar {
-    display: block;
+    .icon{
+      font-size: 25px;
+      color: var(--PrimaryColor);
+    }
+    &:hover.icon{
+      color: var(--SecondaryColor);
+    }
   }
 
   .closeNavbar {
+    display: block;
     position: absolute;
     top: 1rem;
+    cursor: pointer;
     right: 1.5rem;
     color: var(--PrimaryColor);
     &:hover{
