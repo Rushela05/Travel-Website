@@ -130,15 +130,20 @@
             position: absolute;
             background: var(--gradientColor);
             width: max-content;
-            bottom: -0.7rem;
+            bottom: -0.5rem;
             column-gap: .8rem;
             padding: 5px 1rem;
             border-radius: 3rem;
             left: 50%;
             transform: translate(-50%);
+            display: flex;
+            align-items: center;
             justify-content: center;
+            z-index: 1000;
 
-            &::hover{
+            cursor: pointer;
+
+            &:hover{
                 background: var(--PrimaryColor);
             }
 
@@ -147,8 +152,8 @@
             }
 
             span{
-                font-size: 13px;
-                
+                font-size: 15px;
+
             }
         }
 

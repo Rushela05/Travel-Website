@@ -49,7 +49,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className="serchOptions flex">
+                    <div className="searchOptions">
                         <HiFilter className="icon" />
                         <span>More Filters</span>
                     </div>
