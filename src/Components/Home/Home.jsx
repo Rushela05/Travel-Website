@@ -5,7 +5,7 @@ import { GrLocation } from "react-icons/gr";
 import { HiFilter } from "react-icons/hi";
 import { FiFacebook } from "react-icons/fi";
 import { AiOutlineInstagram } from "react-icons/ai";
-import {FiFacFaTripadvisorebook} from "react-icons/fi";
+import { FaTripadvisor } from "react-icons/fa";
 import { BsListTask } from "react-icons/bs";
 import { TbApps } from "react-icons/tb";
 
@@ -65,7 +65,7 @@ const Home = () => {
                     <div className="rightIcons">
                         <FiFacebook  className="icon"/>
                         <AiOutlineInstagram className="icon"/>
-                        <FiFacFaTripadvisorebook className="icon"/>
+                        <FaTripadvisor className="icon"/>
                     </div>
 
                     <div className="leftIcons">
