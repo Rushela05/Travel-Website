@@ -61,7 +61,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="homeFooterIcons flex">
+                <div className="homeFooterIcons">
                     <div className="rightIcons">
                         <FiFacebook  className="icon"/>
                         <AiOutlineInstagram className="icon"/>
