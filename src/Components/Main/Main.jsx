@@ -9,7 +9,12 @@ import img6 from '../../Assets/image6.jpg';
 import img7 from '../../Assets/image7.jpg';
 import img8 from '../../Assets/image8.jpg';
 import img9 from '../../Assets/image9.jpg';
-import img10 from '../../Assets/image10.jpg';import img11 from '../../Assets/image11.jpg';import img12 from '../../Assets/image12.jpg';import img13 from '../../Assets/image13.jpg';import img14 from '../../Assets/image14.jpg';import img15 from '../../Assets/image15.jpg';
+import img10 from '../../Assets/image10.jpg';
+import img11 from '../../Assets/image11.jpg';
+import img12 from '../../Assets/image12.jpg';
+import img13 from '../../Assets/image13.jpg';
+import img14 from '../../Assets/image14.jpg';
+import img15 from '../../Assets/image15.jpg';
 import img16 from '../../Assets/image16.jpg';
 
 
