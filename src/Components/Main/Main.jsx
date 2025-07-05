@@ -9,6 +9,8 @@ import img6 from '../../Assets/image6.jpg';
 import img7 from '../../Assets/image7.jpg';
 import img8 from '../../Assets/image8.jpg';
 import img9 from '../../Assets/image9.jpg';
+import img10 from '../../Assets/image10.jpg';import img11 from '../../Assets/image11.jpg';import img12 from '../../Assets/image12.jpg';import img13 from '../../Assets/image13.jpg';import img14 from '../../Assets/image14.jpg';import img15 from '../../Assets/image15.jpg';
+import img16 from '../../Assets/image16.jpg';
 
 
 import { HiOutlineLocationMarker } from "react-icons/hi";
@@ -104,6 +106,76 @@ const Data = [
         grade: 'CULTURAL RELAX',
         fees: '$500',
         description: 'Bali is a Indonesian Island and one of the best holiday destinations in the Indonesian archipelago. Bali is known for its volcanic mountains, history, art and culture, food, temples, and beautiful sandy beaches.'
+    },
+
+    {
+        id:10,
+        imgSrc: img10,
+        destTitle: 'Sigiriya',
+        location:'Sri Lanka',
+        grade: 'CULTURAL RELAX',
+        fees:'$850',
+        description:'Discover the ancient wonder of Sigiriya. Rising majestically from the jungle, this 5th-century rock fortress features stunning frescoes, landscaped gardens, and panoramic views from the summit. Once a royal palace, Sigiriya is a blend of history, art, and adventure — a must-visit for every traveler.'
+    },
+
+    {
+        id:11,
+        imgSrc: img11,
+        destTitle: 'Banana Reef',
+        location:'Maldives',
+        grade: 'CULTURAL RELAX',
+        fees:'$1000',
+        description:"Dive into the vibrant underwater world of Banana Reef, one of the Maldives’ most famous diving spots. Shaped like a banana, this reef is teeming with colorful corals, exotic fish, reef sharks, and dramatic overhangs. With crystal-clear waters and gentle currents, it’s perfect for both beginners and experienced divers seeking an unforgettable marine adventure."
+    },
+
+    {
+        id:12,
+        imgSrc: img12,
+        destTitle: 'The Great Wall of China',
+        location:'China',
+        grade: 'CULTURAL RELAX',
+        fees:'$1200',
+        description:"Stretching over 13,000 miles, the Great Wall of China is one of the world's most iconic landmarks. Built over centuries to protect ancient China, this architectural marvel winds through mountains, deserts, and valleys. Visitors can walk along its historic paths, take in breathtaking views, and experience the rich cultural legacy of a true world wonder."
+    },
+
+    {
+        id:13,
+        imgSrc: img13,
+        destTitle: 'Kyoto',
+        location:'Japan',
+        grade: 'CULTURAL RELAX',
+        fees:'$750',
+        description:"Step into the charm of Kyoto, where ancient temples, serene gardens, and geisha culture meet timeless beauty. Once Japan’s imperial capital, Kyoto is home to iconic sights like the Fushimi Inari Shrine, Arashiyama Bamboo Grove, and centuries-old tea houses. A perfect blend of history and elegance, Kyoto offers a peaceful escape into Japan’s rich cultural heritage."
+    },
+
+    {
+        id:14,
+        imgSrc: img14,
+        destTitle: 'Niagra Falls',
+        location:'Canada',
+        grade: 'CULTURAL RELAX',
+        fees:'$1500',
+        description:"Feel the roar and mist of Niagara Falls, one of the planet’s most awe‑inspiring natural wonders. On the Canadian side, the graceful Horseshoe Falls thunder 57 meters into the Niagara River, creating rainbows that arch over scenic walkways. Enjoy up‑close boat cruises, illuminated night views, and charming nearby towns—all combining adventure, romance, and unforgettable photo moments"
+    },
+
+    {
+        id:15,
+        imgSrc: img15,
+        destTitle: 'Kandy Lake',
+        location:'Sri Lanka',
+        grade: 'CULTURAL RELAX',
+        fees:'$900',
+        description:"Nestled in the heart of Kandy city, Kandy Lake is a beautiful, man-made lake built in 1807 by King Sri Wickrama Rajasinghe. Surrounded by scenic greenery and cultural landmarks like the Temple of the Tooth Relic, the lake offers a peaceful escape from the city's bustle. A popular spot for relaxing walks and photography, it reflects the charm and history of Kandy, making it a must-visit destination for travelers."
+    },
+
+    {
+        id:16,
+        imgSrc: img16,
+        destTitle: 'Seoul',
+        location:'South Korea',
+        grade: 'CULTURAL RELAX',
+        fees:'$650',
+        description:"Seoul, the vibrant capital of South Korea, is a dynamic mix of modern skyscrapers, high-tech subways, and rich cultural heritage. From the historic Gyeongbokgung Palace and traditional Bukchon Hanok Village to the bustling shopping districts of Myeongdong and futuristic Dongdaemun Design Plaza, Seoul offers something for every traveler. With delicious street food, K-pop culture, and scenic spots like Namsan Tower, it’s a city where tradition and innovation blend seamlessly."
     }
 ]
 
