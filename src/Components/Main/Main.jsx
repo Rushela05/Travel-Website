@@ -1,6 +1,14 @@
 import React from "react";
 import './main.scss'
 import img from '../../Assets/image1.jpg'
+import img from '../../Assets/image2.jpg'
+import img from '../../Assets/image3.jpg'
+import img from '../../Assets/image4.jpg'
+import img from '../../Assets/image5.jpg'
+import img from '../../Assets/image6.jpg'
+import img from '../../Assets/image7.jpg'
+import img from '../../Assets/image8.jpg'
+import img from '../../Assets/image9.jpg'
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { LuClipboardCheck } from "react-icons/lu";
 
