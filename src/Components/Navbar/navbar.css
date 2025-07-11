@@ -1,1 +1,141 @@
-/*# sourceMappingURL=navbar.css.map */
+@charset "UTF-8";
+:root {
+  --PrimaryColor: hsl(199, 100%, 33%);
+  --SecondaryColor: hsl(187, 85%, 43%);
+  --gradientColor: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(0, 0%, 0%);
+  --textColor: hsl(240, 4%, 36%);
+  --whiteColorDream: hsl(0, 0%, 93%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: rgb(239, 239, 239);
+  --bodyColor: rgb(240, 240, 246);
+  --carBG: rgb(225, 225, 235);
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--whiteColorDream);
+  width: 100%;
+  padding: 1rem 2rem;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(121, 131, 143, 0.2);
+}
+.header .logo {
+  color: var(--blackColor);
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.header .logo .icon {
+  font-size: 25px;
+  color: var(--PrimaryColor);
+  transform: translateY(5px);
+}
+.header .navBar {
+  display: flex;
+  align-items: center;
+  background: var(--whiteColorDream);
+  width: 80%;
+  border-radius: 1rem;
+  height: -moz-max-content;
+  height: max-content;
+  z-index: 2000;
+  box-shadow: 0, 2px, 4px rgba(2, 15, 29, 0.904);
+  transition: 0.3s ease-in-out;
+}
+.header .navBar .navLists {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+.header .navBar .navLists .navItem .navLink {
+  color: var(--textColor);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.header .navBar .navLists .navItem .navLink:hover {
+  color: var(--PrimaryColor);
+}
+.header .navBar .btn {
+  background: var(--PrimaryColor);
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.header .navBar .btn a {
+  color: white;
+  text-decoration: none;
+}
+.header .navBar .btn:hover {
+  background: var(--SecondaryColor);
+}
+.header .navBar .closeNavbar {
+  display: flex;
+  top: 1rem;
+  cursor: pointer;
+  right: 1.5rem;
+  color: var(--PrimaryColor);
+}
+.header .navBar .closeNavbar:hover {
+  color: var(--SecondaryColor);
+}
+.header .togglerNavbar .icon {
+  font-size: 25px;
+  color: var(--PrimaryColor);
+}
+.header .togglerNavbar:hover.icon {
+  color: var(--SecondaryColor);
+}
+
+/* ✅ Media Queries placed properly */
+@media screen and (max-width: 760px) {
+  .navBar {
+    position: absolute;
+    background: var(--whiteColorDream);
+    width: 80%;
+    top: -500rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 1rem;
+    box-shadow: 0 2px 4px rgba(94, 101, 109, 0.2);
+    padding: 1rem;
+    flex-direction: column;
+    z-index: 2000;
+  }
+  .activeNavbar {
+    top: 7rem;
+  }
+  .navLists {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .togglerNavbar .icon {
+    font-size: 25px;
+    color: var(--PrimaryColor);
+  }
+  .togglerNavbar:hover.icon {
+    color: var(--SecondaryColor);
+  }
+  .closeNavbar {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    cursor: pointer;
+    right: 1.5rem;
+    color: var(--PrimaryColor);
+  }
+  .closeNavbar:hover {
+    color: var(--SecondaryColor);
+  }
+}/*# sourceMappingURL=navbar.css.map */

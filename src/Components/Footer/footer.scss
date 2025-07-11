@@ -12,3 +12,30 @@
     --bodyColor: rgb(240, 240, 246);
     --carBG: rgb(225, 225, 235);
 }
+
+.footer{
+    width: 100%;
+    position: relative;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.videoDiv{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    video{
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &::after{
+        content: '';
+        position: absolute;
+        background: rgba(10, 84, 107, 0.307);
+    }
+}
