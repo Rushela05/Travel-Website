@@ -42,7 +42,7 @@ const Footer = () => {
                                 Discover breathtaking destinations, hidden gems, and unforgettable experiences. Whether you're planning your next getaway or just dreaming of adventure, we're here to guide you every step of the way. Start exploring today!
                             </div>
 
-                            <div className="footersocials">
+                            <div className="footersocials flex">
                                 <AiOutlineTwitter className="icon"/>
                                 <FaYoutube className="icon"/>
                                 <AiOutlineInstagram className="icon"/>
@@ -81,6 +81,77 @@ const Footer = () => {
                                     Payment
                                 </li>
                             </div>
+
+                            {/*Group 2*/}
+                            <div className="linkGroup">
+                                <span className="groupTitle">
+                                    Partners
+                                </span>
+                                <li className="footerList flex">
+                                    <FiChevronRight className="icon"/>
+                                    Bookings
+                                </li>
+
+                                <li className="footerList flex">
+                                    <FiChevronRight className="icon"/>
+                                    Rentcars
+                                </li>
+
+                                <li className="footerList flex">
+                                    <FiChevronRight className="icon"/>
+                                    HostelWorld
+                                </li>
+
+                                <li className="footerList flex">
+                                    <FiChevronRight className="icon"/>
+                                    Trivago
+                                </li>
+
+                                <li className="footerList flex">
+                                    <FiChevronRight className="icon"/>
+                                    TripAdvisor
+                                </li>
+                            </div>
+
+                            {/*Group 3*/}
+                            <div className="linkGroup">
+                                <span className="groupTitle">
+                                    Last Minute 
+                                </span>
+                                <li className="footerList flex">
+                                    <FiChevronRight className="icon"/>
+                                    London
+                                </li>
+
+                                <li className="footerList flex">
+                                    <FiChevronRight className="icon"/>
+                                    California 
+                                </li>
+
+                                <li className="footerList flex">
+                                    <FiChevronRight className="icon"/>
+                                    Maldives
+                                </li>
+
+                                <li className="footerList flex">
+                                    <FiChevronRight className="icon"/>
+                                    Mumbai
+                                </li>
+
+                                <li className="footerList flex">
+                                    <FiChevronRight className="icon"/>
+                                    Colombo
+                                </li>
+                            </div>
+                        </div>
+
+                        <div className="footerDiv flex">
+                            <small>
+                                Best Travel Website
+                            </small>
+                            <small>
+                                @COPYRIGHTS RESERVED 2025
+                            </small>
                         </div>
                     </div>
                 </div>

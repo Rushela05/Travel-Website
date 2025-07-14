@@ -202,7 +202,7 @@ const Main = () => {
                                     <img src={imgSrc} alt={destTitle} />
                                 </div>
 
-                                <div className="cardInfo">
+                                <div className="cardInfo grid">
                                     <h4 className="destTitle flex">{destTitle}</h4>
                                     <span className="continent flex">
                                         <HiOutlineLocationMarker className="icon" />
